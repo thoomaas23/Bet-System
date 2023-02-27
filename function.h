@@ -5,7 +5,7 @@ bool start()
    printf("Hi mate welcome in offline bet system  ! \n");
    printf("You are new here ? \n");
    gets(answear);
-   if (strcmp(answear, "Yes") == 0)
+   if ((strcmp(answear, "Yes") == 0) || (strcmp(answear, "YES") == 0) || (strcmp(answear, "yes") == 0) || (strcmp(answear, "YEs") == 0) || (strcmp(answear, "yES") == 0))
       return 1;
    else
       return 0;
