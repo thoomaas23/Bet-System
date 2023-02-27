@@ -2,8 +2,11 @@
 #include <stdlib.h>
 #include "classes.h"
 #include "function.h"
+
 int main()
-{
-   start();
+{  
+    if (start()== 1)
+    login_panel (); 
+    
     return 0;
 }
